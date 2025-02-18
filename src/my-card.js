@@ -162,6 +162,7 @@ details summary {
       bottom-text="HTML is anything"
       top-text="HAX is html">
       </meme-maker>
+
       <!-- put this in your render method where you had details -->
         <details ?open="${this.fancy}" @toggle="${this.openChanged}">
         <summary>Description</summary>
