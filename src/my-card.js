@@ -156,7 +156,12 @@ details summary {
   render() {
     return html`<div class= "card">
       <h1>${this.title}</h1>
-      <img src="${this.img}" alt="${this.title}" />
+      <meme-maker
+      alt="Up your meme game with hax and allow for more accessible memes"
+      image-url="https://thehowler.org/wp-content/uploads/2018/01/roll-safe-meme-1.jpg"
+      bottom-text="HTML is anything"
+      top-text="HAX is html">
+      </meme-maker>
       <!-- put this in your render method where you had details -->
         <details ?open="${this.fancy}" @toggle="${this.openChanged}">
         <summary>Description</summary>
